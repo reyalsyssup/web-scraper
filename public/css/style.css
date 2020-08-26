@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+}
+
+.story {
+    width: 33.33%;
+    height: 300px;
+    background-color: #333;
+    transition: 0.2s;
+    padding: 1rem;
+} .story a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+} .story:hover {
+    background-color: #222;
+}
